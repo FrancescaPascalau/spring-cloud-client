@@ -7,7 +7,7 @@ spring:
   profiles:
     active: dev
   config:
-    import: optional:configserver:http://user:password@localhost:8888
+    import: optional:configserver:http://root:s3cr3t@localhost:8888
 
 user:
-  role: Engineer
+  role: development
