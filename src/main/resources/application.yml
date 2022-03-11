@@ -1,0 +1,13 @@
+server:
+  port: 8889
+
+spring:
+  application:
+    name: config-client
+  profiles:
+    active: dev
+  config:
+    import: optional:configserver:http://user:password@localhost:8888
+
+user:
+  role: Engineer
