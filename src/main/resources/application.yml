@@ -1,13 +1,17 @@
-server:
-  port: 8889
+#server:
+#  port: 8889
+#
+#spring:
+#  application:
+#    name: config-client
+#  profiles:
+#    active: dev
+#  config:
+#    import: optional:configserver:http://root:s3cr3t@localhost:8888
+#
+#user:
+#  role: development
 
-spring:
-  application:
-    name: config-client
-  profiles:
-    active: dev
-  config:
-    import: optional:configserver:http://root:s3cr3t@localhost:8888
-
-user:
-  role: development
+username: postgres
+url: jdbc:postgresql://localhost:5432/postgres
+password: mysecretpassword
