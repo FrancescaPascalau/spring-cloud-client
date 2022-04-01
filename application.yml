@@ -1,6 +1,6 @@
-#server:
-#  port: 8889
-#
+server:
+  port: 8889
+
 #spring:
 #  application:
 #    name: config-client
@@ -12,6 +12,9 @@
 #user:
 #  role: development
 
-username: postgres
-url: jdbc:postgresql://localhost:5432/postgres
-password: mysecretpassword
+spring:
+  application:
+    name: spring-cloud-client
+  datasource:
+    username: dbuser
+    password: password

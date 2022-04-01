@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-cloud-client
+  profiles:
+    active: dev,mysql
+    
+encrypt:
+  key: myencryptkey
